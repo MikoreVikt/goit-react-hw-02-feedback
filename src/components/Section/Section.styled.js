@@ -1,9 +1,12 @@
 import styled from 'styled-components';
 
-export const Wrapper = styled.section`
-  padding: 10px 20px;
+export const SectionWrapper = styled.section`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 `;
-export const Title = styled.h1`
-  font-size: 26px;
-  font-weight: bold;
+
+export const Title = styled.h2`
+  margin: 0 0 20px 0;
 `;

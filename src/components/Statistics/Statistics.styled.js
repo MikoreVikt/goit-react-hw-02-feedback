@@ -1,11 +1,16 @@
 import styled from 'styled-components';
 
-export const StatidticsList = styled.ul`
-  padding: 10px;
-  list-style: none;
+export const StatisticsWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  row-gap: 20px;
 `;
-export const StatidticsItem = styled.li`
-  margin-bottom: 8px;
-  font-size: 14px;
-  font-weight: bold;
+
+export const StatisticsItem = styled.p`
+  padding: 0;
+  margin: 0;
+  font-weight: 500;
+  font-size: 20px;
 `;
